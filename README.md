@@ -67,4 +67,5 @@ admin.site.register(Question)
 
 
 for polls we should run this command: 
+
 py manage.py makemigrations polls
