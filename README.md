@@ -19,21 +19,25 @@ pip install -r requirements.txt
 
 Content 
 
-1. This app uses for Polls systems or as a Polls App ,
+1. What is this app used for?  
+This app uses for Polls systems or as a Polls App ,
 which is through that you can Add ,Delete ,Edit Questions and Answers with different users and admins with special or unic 
 username and password 
 
-2. you can have file which is name requirements.txt and with it can understand what are your requirements :
+2. What does one need to install before running the app, what are the requirements?
+Python    
+Django
+One software as a code editor
 
->>pip install -r requirements.txt
 
-
-3. forexample for installing an astroid we should type it in command :
+3. How to install all the Python packages from the requirements.txt (we know that at least one is listed in there)?  
+forexample for installing an astroid we should type it in command :
 
 >>pip install astroid
 
 
-4. with this command you can run it locally :
+4. How to run the app locally? 
+with this command you can run it locally :
 >>py manage.py runserver
 
 and it will give you an address to watch it in your browser something like this :
@@ -41,12 +45,13 @@ and it will give you an address to watch it in your browser something like this 
 127.0.0.1:8000
 
 
-5. URL for Admin :
+5. Which are some relevant URLs for the app? Eg. how to access the admin interface?  
+URL for Admin :
 127.0.0.1:8000/admin/
 
 
 
-6. 
+6. A simple example of the app’s functionality. Eg. how to add a new Polls and Questions? How can I submit an answer to a question? 
 from django.contrib import admin
 from .models import Question
 admin.site.register(Question) 
