@@ -36,7 +36,7 @@ username and password
 4. with this command you can run it locally :
 >>py manage.py runserver
 
-and it will give you an address to see it in your browser somthing like this :
+and it will give you an address to watch it in your browser something like this :
 
 127.0.0.1:8000
 
