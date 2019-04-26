@@ -52,9 +52,13 @@ URL for Admin :
 
 
 6. A simple example of the app’s functionality. Eg. how to add a new Polls and Questions? How can I submit an answer to a question? 
+
 from django.contrib import admin
+
 from .models import Question
-admin.site.register(Question) 
+
+admin.site.register(Question)
+
 
 for polls we should run this command: 
 py manage.py makemigrations polls
