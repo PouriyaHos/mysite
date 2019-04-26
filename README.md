@@ -5,15 +5,20 @@ Django tutorial polls app
 
 
 Requirements :
+
 Python 3.7.3
+
 Django 2.2
+
 Pip 19.1
 
 
 
 
 Install dependencies:
+
 pip install -r requirements.txt
+
 
 
 
