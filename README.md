@@ -23,7 +23,7 @@ Content
 which is through that you can Add ,Delete ,Edit Questions and Answers with different users and admins with special or unic 
 username and password 
 
-2. you can have file which is name requirements.txt and with it can tell you what are requirements :
+2. you can have file which is name requirements.txt and with it can understand what are your requirements :
 
 >>pip install -r requirements.txt
 
