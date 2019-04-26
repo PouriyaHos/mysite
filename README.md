@@ -46,5 +46,10 @@ and it will give you an address to watch it in your browser something like this 
 
 
 
-6. we should go this way :
-Home/polls/questions 
+6. 
+from django.contrib import admin
+from .models import Question
+admin.site.register(Question) 
+
+for polls we should run this command: 
+py manage.py makemigrations polls
