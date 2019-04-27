@@ -2,6 +2,11 @@ django-polls
 ============
 Django tutorial polls app
 
+user name : admin
+
+Email : hosseiny_pouriya@yahoo.com
+
+Password : salam5454
 
 
 --Requirements :
